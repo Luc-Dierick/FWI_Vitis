@@ -1,0 +1,5 @@
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/interface/include ${CMAKE_SOURCE_DIR}/libraries/forwardModel/interface/include)
+add_subdirectory(conjugateGradientInversion)
+add_subdirectory(randomInversion)
+add_subdirectory(gradientDescentInversion)
+add_subdirectory(evolutionInversion)
